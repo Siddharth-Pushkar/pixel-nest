@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import imageRoutes from './routes/Imageroutes.js';
+import imageRoutes from './routes/imageRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
